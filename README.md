@@ -29,15 +29,15 @@ NOTE: Please set your **DATASET_PATH** (e.g. datasets/RoG-cwq), **OPENAI_API_KEY
 
     sh src/workflow/parsing.sh
 
-This action will output question_decompose_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">user_queries</span> (sub-queries of complex question) field in preprocess_datasets/ folder.
+This action will output question_decompose_datasets containing `user_queries` (sub-queries of complex question) field in preprocess_datasets/ folder.
 
 ### Step 2: Pruning
 
     sh src/workflow/pruning.sh
 
-This action will output llm_pruning_three_channels_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">pruned_graph</span> field; as well as triple_trans_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">triple_unit_queries</span> (graph queries) field.
+This action will output llm_pruning_three_channels_datasets containing `pruned_graph` field; as well as triple_trans_datasets containing `triple_unit_queries` (graph queries) field.
 
-We also provide vanilla pruning script, which will output vanilla_pruning_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">pruned_graph</span> field.
+We also provide vanilla pruning script, which will output vanilla_pruning_datasets containing `pruned_graph` field.
 
     python run.py --task vanilla_pruning -d {webqsp, cwq} --embedding_model sentence-transformers  --embedding_model_path {YOUR EMBEDDING MODEL PATH}
 
@@ -45,11 +45,11 @@ We also provide vanilla pruning script, which will output vanilla_pruning_datase
 
     sh src/workflow/enriching.sh
 
-This action will output filter_triple_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">filter_triples</span> (triples needed to be enriched) field; as well as structural_enrich_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">structural_enrich_triples</span> field; also feature_enrich_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">feature_enrich_triples</span> field.
+This action will output filter_triple_datasets containing `filter_triples` (triples needed to be enriched) field; as well as structural_enrich_datasets containing `structural_enrich_triples` field; also feature_enrich_datasets containing `feature_enrich_triples` field.
 
 ## 🏆 Enriched KG
 
-We provide our preprocessed datasets (cwq, webqsp) containing enriched KGs in here (*uploading, coming soon!*).
+We provide our preprocessed datasets (cwq, webqsp) containing enriched KGs in here (*uploading, coming soon*).
 
 ## 💡 Reasoning
 
@@ -59,7 +59,7 @@ Here choose to reason with enriched KGs or vanilla KGs.
 
 Type *1* represents Reasoning on vanilla KGs, *2* represents Reasoning with our EoG. *3* represents exit Reasoning.
 
-This action will output qa_datasets containing <span style="background-color: gray; padding: 2px 6px; border-radius: 4px; border: 1px solid #fcfcfcff;">predictions</span> field.
+This action will output qa_datasets containing `predictions` field.
 
 ## 📈 Evaluation
 
