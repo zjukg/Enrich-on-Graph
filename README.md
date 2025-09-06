@@ -10,7 +10,7 @@
 
  - [x] Our paper is accepted by EMNLP 2025 🎉🎉🎉
  - [x] Our code will be released before September 30th 2025 ✨
- - [] Our paper will be published soon ⏳
+ - [ ] Our paper will be published soon ⏳
 
 ## 🛠️ Environment
 
@@ -68,3 +68,5 @@ Use the following script to eval reasoning results.
     python run.py --task qa_evaluate -d {QA_DATASET_PATH} --cal_f1
 
 ## 💖 Citations
+
+Coming Soon 🤗 
