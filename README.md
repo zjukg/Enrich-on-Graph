@@ -69,12 +69,23 @@ Use the following script to eval reasoning results.
 
 ## 💖 Citations
 
-    @misc{li2025enrichongraphquerygraphalignmentcomplex,
-        title={Enrich-on-Graph: Query-Graph Alignment for Complex Reasoning with LLM Enriching}, 
-        author={Songze Li and Zhiqiang Liu and Zhengke Gui and Huajun Chen and Wen Zhang},
-        year={2025},
-        eprint={2509.20810},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL},
-        url={https://arxiv.org/abs/2509.20810}, 
+    @inproceedings{li-etal-2025-enrich,
+        title = "Enrich-on-Graph: Query-Graph Alignment for Complex Reasoning with {LLM} Enriching",
+        author = "Li, Songze  and
+        Liu, Zhiqiang  and
+        Gui, Zhengke  and
+        Chen, Huajun  and
+        Zhang, Wen",
+        editor = "Christodoulopoulos, Christos  and
+        Chakraborty, Tanmoy  and
+        Rose, Carolyn  and
+        Peng, Violet",
+        booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        month = nov,
+        year = "2025",
+        address = "Suzhou, China",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2025.emnlp-main.390/",
+        pages = "7683--7703",
+        ISBN = "979-8-89176-332-6"
     }
