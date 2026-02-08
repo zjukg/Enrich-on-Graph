@@ -8,9 +8,9 @@
 
 ## 🚀 Update
 
- - [x] Our paper is accepted by EMNLP 2025 🎉🎉🎉
- - [x] Our code will be released before September 30th 2025 ✨
- - [ ] Our paper will be published soon ⏳
+ - [x] Our paper is accepted by EMNLP 2025 🎉
+ - [x] Our code has been released now ✨
+ - [x] Our preprocessed [CWQ](https://modelscope.cn/datasets/AGsz666/EoG-enrich-data-cwq) and [WebQSP](https://modelscope.cn/datasets/AGsz666/EoG-enrich-data-webqsp) datasets have been released; you can use these enriched subgraphs for further research. 
 
 ## 🛠️ Environment
 
@@ -49,7 +49,7 @@ This action will output filter_triple_datasets containing `filter_triples` (trip
 
 ## 🏆 Enriched KG
 
-We provide our preprocessed datasets (cwq, webqsp) containing enriched KGs in here (*uploading, coming soon*).
+We provide our preprocessed datasets (cwq, webqsp) containing enriched KGs in modelscope: [CWQ](https://modelscope.cn/datasets/AGsz666/EoG-enrich-data-cwq) and [WebQSP](https://modelscope.cn/datasets/AGsz666/EoG-enrich-data-webqsp). You can use these enriched subgraphs for further research. 
 
 ## 💡 Reasoning
 
