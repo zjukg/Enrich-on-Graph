@@ -17,8 +17,8 @@ EOG_QA_DATASET="preprocess_datasets/feature_enrich_datasets/cwq_gpt-4o-mini-2024
 
 # Common LLM Configuration
 LLM_MODEL="gpt-4o-mini-2024-07-18"
-OPENAI_API_KEY="sk-SgiEuM72oCrNUpDZ9b87F351103e4d218d69B42e36C859Df"
-BASE_URL="https://api.key77qiqi.cn/v1"
+OPENAI_API_KEY=YOUR_API_KEY_HERE
+BASE_URL=API_BASE_URL_HERE
 
 # =============================================================================
 # Helper Functions
